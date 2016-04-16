@@ -9,7 +9,76 @@
 
 @media screen and (max-width: 767px) {
    
+.btn-clear {
+	background: transparent;
+	color: white;
+	border: 2px solid white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;  
+    -o-transition: all 0.5s ease; 
+   
+}
 
+.btn-clear:hover {
+	background: white;
+	color: #2f2f2f;
+     transform: scale(1.2);
+}
+    
+#h {
+   
+	background: url(../img/sarmad.jpg) no-repeat center top;
+	padding-top: 5px;
+	background-attachment:fixed;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+    #sep {
+	background: url(../img/sep.jpg) no-repeat center top;
+	padding-top: 100px;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+	color: white;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+    .thumbnail-images{
+    width: 100%;
+    overflow: hidden;
+}
+.thumbnail-images:hover{
+    box-shadow: 1px 1px 4px #d65140;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transform: scale(1.2);
+}
+.jumbotron p{
+    text-align: center;
+}
     
 }
 
